@@ -9,7 +9,7 @@ header {
 }
 
 .header_container {
-    text-align: center;
+    /* text-align: center; */
     height: 100%;
     position: relative;
 }
@@ -19,5 +19,28 @@ header {
     margin-top: 1rem;
     display: flex;
     gap: 1.2rem;
+    /* justify-content: center; */
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #915eff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.line {
+    width: 3px;
+    height: 180px;
+    background-image: linear-gradient(to bottom, #915eff, #080808);
+}
+
+.design{
+    position: absolute;
+}
+.design1{
+    align-items: center;
     justify-content: center;
+    padding: 0 15px;
 }

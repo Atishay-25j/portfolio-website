@@ -62,7 +62,7 @@ section {
 
 section>h2,
 h5 {
-  text-align: center;
+  /* text-align: center; */
   color: var(--color-light)
 }
 
@@ -81,6 +81,7 @@ a:hover {
 }
 
 .btn {
+  height: min-content;
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
