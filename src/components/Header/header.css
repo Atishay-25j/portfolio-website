@@ -1,0 +1,23 @@
+header {
+    background-image: url('../../assets/herobg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*======================CTA=============*/
+.cta {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
