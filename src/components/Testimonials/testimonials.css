@@ -1,0 +1,99 @@
+#testimonials{
+    margin-top: 105px;
+}
+.container.testimonials_container{
+    margin-top: 8rem;
+    width: 40%;
+    padding-bottom: 3rem;
+
+}
+/* .client_avatar{
+    
+    
+} */
+.client-img{
+    width: 4rem;
+    border-radius: 50%;
+    margin: 0.2rem auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+.testimonial{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    position: relative;
+
+}
+
+.client_name{
+    color: var(--color-white);
+}
+.quotes{
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    font-size: 3rem;
+    font-style  :normal;
+    font-weight: bold;
+}
+.client_review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin : 1.6rem auto 0;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+}
+@media screen and (max-width : 1024px) {
+    .container.testimonials_container{
+        width: 60%;
+        padding-bottom: 2rem;
+    }
+    .client_review{
+        color: var(--color-light);
+        font-weight: 300;
+        display: block;
+        width: 80%;
+        margin : 1.6rem auto 2rem;
+    }
+    .client-img{
+        width: 4rem;
+        border-radius: 50%;
+        margin: 0px auto 10px;
+        border: 0.4rem solid var(--color-primary-variant);
+    }
+    
+}
+
+@media screen and (max-width : 600px) {
+    .container.testimonials_container{
+        width: var(--container-width-md);
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 3.2rem;
+        margin-top: 100px;
+    }
+    .client_review{
+        width: var(--container-width-md);
+        
+    }
+    .client-img{
+        width: 4rem;
+        border-radius: 50%;
+        margin: 0px auto 10px;
+        border: 0.4rem solid var(--color-primary-variant);
+    }
+    #testimonials{
+        /* padding-top: 40px; */
+        margin-top: 65px;
+    }
+    .testimonial{
+        
+        padding: 1.5rem;
+  
+    }
+}

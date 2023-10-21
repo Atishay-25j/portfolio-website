@@ -1,11 +1,12 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import { motion } from 'framer-motion'
+import HeadSocials from './HeadSocials'
+// import { motion } from 'framer-motion'
 import { ComputersCanvas } from '../canvas'
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header_container">
         <div className='d-flex design '>
           <div className='d-flex flex-column design1 '>
@@ -19,8 +20,11 @@ const Header = () => {
           </div>
         </div>
 
+        <ComputersCanvas className='canvas' />
 
-      <ComputersCanvas/>
+        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <HeadSocials />
+
       </div>
 
     </header>

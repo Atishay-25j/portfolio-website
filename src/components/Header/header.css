@@ -7,7 +7,9 @@ header {
     padding-top: 4rem;
     overflow: hidden;
 }
-
+/* h5{
+    text-align: left;
+} */
 .header_container {
     /* text-align: center; */
     height: 100%;
@@ -20,6 +22,9 @@ header {
     display: flex;
     gap: 1.2rem;
     /* justify-content: center; */
+}
+.text-light {
+    text-align: left;
 }
 
 .dot {
@@ -36,11 +41,60 @@ header {
     background-image: linear-gradient(to bottom, #915eff, #080808);
 }
 
-.design{
+.design {
     position: absolute;
+    z-index: 1;
 }
-.design1{
+
+.design1 {
     align-items: center;
     justify-content: center;
     padding: 0 15px;
 }
+
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+}
+
+.header_socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 35%;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width : 1024px) {
+    .header{
+        height: 68vh;
+    }
+    
+    
+}
+
+@media screen and (max-width : 600px) {
+    
+    .header{
+        height: 100vh;
+    }
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+
+}
+
