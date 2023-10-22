@@ -46,7 +46,7 @@ footer a{
 
 .footer_socials a:hover{
     background:transparent;
-    color: var(--color-bg) ;
+    color: var(--color-bg);
     border-color: var(--color-bg);
 }
 .footer_copyright{
