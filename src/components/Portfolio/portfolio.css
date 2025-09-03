@@ -1,18 +1,30 @@
-.swiper{
+.swiper {
     height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
+
 .portfolio-container {
     margin-top: 8%;
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* gap: 2.5rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
 }
+
 .portfolio-item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 0.5rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
 }
 
 .portfolio-item:hover {
@@ -24,64 +36,102 @@
 .portfolio-item-img {
     border-radius: 0.3rem;
     overflow: hidden;
+    flex: 1;
+    position: relative;
+}
+
+.portfolio-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .portfolio-item h4 {
     margin: 1rem 0 1rem;
+    text-align: center;
+    color: var(--color-white);
 }
-.swiper .swiper-coverflow .swiper-3d .swiper-initialized .swiper-horizontal .swiper-watch-progress .mySwiper{
-    height: 390px;
-}
+
 .portfolio-item-cta {
     display: flex;
     gap: 1rem;
-    
+    justify-content: center;
+    margin-top: auto;
     margin-bottom: 0.5rem;
 }
-.swiper-pagination-clickable .swiper-pagination-bullet{
-    background: var(--color-primary);
+
+.portfolio-item-cta .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
 }
+
+.swiper-pagination-bullet {
+    background: var(--color-primary) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color-primary) !important;
+}
+
+/* Ensure portfolio section is visible */
+#portfolio {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+/* Mobile styles */
 @media screen and (max-width : 1024px) {
-    
+    .swiper {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width : 600px) {
-    .portfolio-container{
-        margin : 0rem 0.1rem 0rem 0.1rem;
+    .portfolio-container {
+        margin: 0rem 0.1rem 0rem 0.1rem;
         margin-top: 70px;
     }
-    .portfolio-item{
+    
+    .portfolio-item {
         position: relative;
         object-fit: contain;
-        margin : 15px auto 0px;
+        margin: 15px auto 0px;
         padding: 0.6rem;
+        height: 210px;
     }
-    .bg{
+    
+    .bg {
         overflow: hidden;
-        /* background: var(--color-bg-variant); */
         border-radius: 1.2rem;
         padding: 1px;
     }
+    
     .portfolio-item-cta {
         position: absolute;
         display: flex;
-        top :220px;
+        top: 220px;
         bottom: 0;
         gap: 1rem;
         right: 0;
-        
-        
-        
     }
-    .swiper-wrapper{
-        height :350px;
-
+    
+    .swiper-wrapper {
+        height: 350px;
     } 
-    #portfolio{
-        height : 60vh;
+    
+    #portfolio {
+        height: 60vh;
         margin-top: 90px;
     }
-    .carousel-inner{
-        overflow : hidden;
+    
+    .carousel-inner {
+        overflow: hidden;
+    }
+    
+    .swiper {
+        height: 350px;
     }
 }

@@ -15,7 +15,7 @@ const Header = () => {
           </div>
           <div>
             <h1>Hi I'm <span style={{ color: '#915eff' }}>Atishay</span></h1>
-            <h5 className='text-light'>Fullstack Developer</h5>
+            <h5 className='text-light'>Software Engineer</h5>
             <CTA />
           </div>
         </div>

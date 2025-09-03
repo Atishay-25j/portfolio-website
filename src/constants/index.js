@@ -78,15 +78,15 @@ const experiences = [
     ],
   },
   {
-    title: "Searching for Work....",
-    company_name: "Coming Soon",
+    title: "Full Stack Developer Intern",
+    company_name: "Main Flow Services And Technologies",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "October 2023 - Present",
+    date: "July 2024 - August 2024",
     points: [
-      "Searching for an intership or a part time work.",
-      "Looking forward to work with full enthusiasm and contibuting towards my domain.",
-      "Anyone wanted to hire me can contact me below."
+      "Recently completed this internship with all taks completed on time to better skills.",
+      "Worked with great mentors to take my skills on the next level and to use them efficiently in the future.",
+      "Created few projects using web technologies like ReactJs and NodeJs."
     ],
   },
 ];
