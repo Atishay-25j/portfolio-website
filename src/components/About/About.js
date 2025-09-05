@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -9,7 +9,7 @@ import AnimatedTextWord from './AnimatedTextWord'
 import { motion } from 'framer-motion';
 const About = () => {
   
-  const text = "Hello! I'm Atishay, a passionate Full Stack Developer with a love for crafting digital experiences that marry form and function. With a background in Computer Science Engineering, I've honed my skills in both front-end and back-end development, allowing me to create seamless and robust web applications.  I find immense joy in tackling complex problems and turning them into elegant, user-friendly solutions. Whether it's building a responsive website from scratch, optimizing server performance, or creating intuitive user interfaces.";
+  const text = "Hello! I'm Atishay, a Software Engineer in Test 1 with a background in Computer Science Engineering. I enjoy crafting digital experiences that combine form, function, and quality while contributing across both development and testing. In my current role, I’ve worked on feature development projects and built scalable, user-friendly solutions. Alongside this, I’ve enhanced automation frameworks to ensure smooth and reliable releases. I thrive on solving complex problems, optimizing workflows, and creating robust systems. My work spans front-end, back-end, and automation pipelines, giving me end-to-end impact. For me, technology is about building solutions that truly make a difference.";
   return (
     <section id='about'>
       <motion.h5 initial={{ opacity: 0,x:-30 }} viewport={{ once: true }}  whileInView={{ opacity: 1, x: 0 }} transition={{  duration:0.5, delay:0.1}}>Get To Know</motion.h5>
@@ -27,13 +27,13 @@ const About = () => {
               <motion.article className="about_card" initial={{ opacity: 0,y:-10 }} viewport={{ once: true }}  whileInView={{ opacity: 1, y: 0 }} transition={{  duration:0.5, delay:1}}>
                 <FaAward className='about_icon' />
                 <h5>Experience</h5>
-                <small>0+ Yrs Working</small>
+                <small>1+ Yrs Working</small>
               </motion.article>
             </Tilt>
             <Tilt scale={2}>
               <motion.article className="about_card" initial={{ opacity: 0,y:-10 }} viewport={{ once: true }}  whileInView={{ opacity: 1, y: 0 }} transition={{  duration:0.5, delay:1.2}}>
                 <FiUsers className='about_icon' />
-                <h5>500+ Con.. </h5>
+                <h5>1400+ Con.. </h5>
                 <small>Linked In</small>
               </motion.article>
             </Tilt>

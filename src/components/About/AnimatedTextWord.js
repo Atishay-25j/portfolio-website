@@ -13,12 +13,12 @@ const AnimatedTextWord = ({ text }) => {
 
     
     return (
-        <motion.div variants={container}  initial='hidden' animate='visible'  >
+        <motion.div variants={container} initial='hidden' animate='visible' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
 
             {words.map((word, index) => {
 
                 return (
-                    <motion.span key={index} style={{ display: 'inline-block', marginRight: '7px' }} initial={{ opacity: 0, y: 20 }} viewport={{ once: true }} whileInView={{
+                    <motion.span key={index} style={{ display: 'inline' }} initial={{ opacity: 0, y: 20 }} viewport={{ once: true }} whileInView={{
                         opacity: 1, y: 0, transition: {
                             type: "spring",
                             damping: 15,
@@ -27,7 +27,7 @@ const AnimatedTextWord = ({ text }) => {
                             delay : 1.5
 
                         }
-                    }}>{word}</motion.span>
+                    }}>{word} </motion.span>
                 )
 
 
