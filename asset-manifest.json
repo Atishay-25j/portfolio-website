@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.be8a1ba2.css",
+    "main.js": "/portfolio-website/static/js/main.47201c82.js",
+    "static/media/herobg.png": "/portfolio-website/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/me.jpeg": "/portfolio-website/static/media/me.b8cd7d3781fab5aa1e9e.jpeg",
+    "static/media/portfolio1.png": "/portfolio-website/static/media/portfolio1.4915c0f4e1467d6ae247.png",
+    "static/media/AtishayJainResume.pdf": "/portfolio-website/static/media/AtishayJainResume.5b1662dba53900095dbf.pdf",
+    "static/media/suyash.jpeg": "/portfolio-website/static/media/suyash.417920007d2626502f04.jpeg",
+    "static/media/shantanu.jpeg": "/portfolio-website/static/media/shantanu.5ac94d113e19e01874aa.jpeg",
+    "static/media/nikhil.jpeg": "/portfolio-website/static/media/nikhil.714189b92b8895bfacf1.jpeg",
+    "static/media/rachit.jpeg": "/portfolio-website/static/media/rachit.9c1ebd44ffdee6c86bef.jpeg",
+    "static/media/portfolio6.png": "/portfolio-website/static/media/portfolio6.896fd1bbac6759aec6c4.png",
+    "static/media/mern.png": "/portfolio-website/static/media/mern.b59097145c5d787dd07e.png",
+    "static/media/portfolio2.png": "/portfolio-website/static/media/portfolio2.5e160bba88dd5e6aa8dc.png",
+    "static/media/portfolio4.png": "/portfolio-website/static/media/portfolio4.360357d5912987078199.png",
+    "static/media/sih.png": "/portfolio-website/static/media/sih.56742102e93b3729a9bf.png",
+    "static/media/portfolio5.png": "/portfolio-website/static/media/portfolio5.d66f79c07fb0497eaa40.png",
+    "static/media/portfolio7.png": "/portfolio-website/static/media/portfolio7.dc111c4669f742b4f2a3.png",
+    "static/media/portfolio3.png": "/portfolio-website/static/media/portfolio3.32a54419baf9193f7468.png",
+    "static/media/osdc.jpeg": "/portfolio-website/static/media/osdc.4fee80c7847d78a49202.jpeg",
+    "index.html": "/portfolio-website/index.html",
+    "static/media/threejs.svg": "/portfolio-website/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg"
+  },
+  "entrypoints": [
+    "static/css/main.be8a1ba2.css",
+    "static/js/main.47201c82.js"
+  ]
+}
