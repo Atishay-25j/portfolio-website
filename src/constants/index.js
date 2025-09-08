@@ -54,27 +54,15 @@ const feedbacks = [
 ]
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "OSDC'HACK JIIT-62",
-    icon: osdc,
-    iconBg: "#E6DEDD",
-    date: "April 2023 - April 2023",
+    title: "Software Engineer in Test 1",
+    company_name: "Aspire Fte Pvt Ltd.",
+    icon: aspire,
+    iconBg: "#dde0e6",
+    date: "July 2025 - Present",
     points: [
-      "Developed and maintained our web application BloodMitr for the blood donors and blood requirers.",
-      "Lead the team in that hackathon and worked with my team members to ensure user compatible website.",
-      "Selected in top 10 teams where 90+ team participated and continued to developed our website",
-    ],
-  },
-  {
-    title: "Full Stack Developer Intern",
-    company_name: "Main Flow Services And Technologies",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "July 2024 - August 2024",
-    points: [
-      "Recently completed this internship with all taks completed on time to better skills.",
-      "Worked with great mentors to take my skills on the next level and to use them efficiently in the future.",
-      "Created few projects using web technologies like ReactJs and NodeJs."
+      "Designing and maintaining robust automation frameworks, improving test coverage and accelerating release cycles for financial workflows.",
+      "Leading 100% sprint automation and development initiatives across teams and implementing scalable solutions for efficiency.",
+      "Developing revamp features for the financial workflows 😉."
     ],
   },
   {
@@ -90,15 +78,27 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer in Test 1",
-    company_name: "Aspire Fte Pvt Ltd.",
-    icon: aspire,
-    iconBg: "#dde0e6",
-    date: "July 2025 - Present",
+    title: "Full Stack Developer Intern",
+    company_name: "Main Flow Services And Technologies",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - August 2024",
     points: [
-      "Designing and maintaining robust automation frameworks, improving test coverage and accelerating release cycles for financial workflows.",
-      "Leading 100% sprint automation and development initiatives across teams and implementing scalable solutions for efficiency.",
-      "Developing revamp features for the financial workflows 😉."
+      "Recently completed this internship with all taks completed on time to better skills.",
+      "Worked with great mentors to take my skills on the next level and to use them efficiently in the future.",
+      "Created few projects using web technologies like ReactJs and NodeJs."
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "OSDC'HACK JIIT-62",
+    icon: osdc,
+    iconBg: "#E6DEDD",
+    date: "April 2023 - April 2023",
+    points: [
+      "Developed and maintained our web application BloodMitr for the blood donors and blood requirers.",
+      "Lead the team in that hackathon and worked with my team members to ensure user compatible website.",
+      "Selected in top 10 teams where 90+ team participated and continued to developed our website",
     ],
   }
 ];
